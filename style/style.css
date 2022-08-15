@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3a98ff;
+    font-family: roboto;
+    font-size: 20px;
+    color: #555;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.container .title {
+    padding: 15px;
+    border-bottom: 1px solid #bbb;
+}
+
+.container .title p {
+    margin: 0;
+}
+
+.container .guess_word_box {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.container .guess_word_box .box {
+    flex-basis: 50px;
+    height: 50px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+.container .ditels {
+    padding: 15px;
+}
+
+.container .ditels p:first-child {
+    margin-top: 0;
+}
+
+.container .ditels p:last-child {
+    margin-bottom: 0;
+}
+
+.container .button {
+    padding: 15px;
+}
+
+.container button {
+    width: 100%;
+    padding: 15px;
+    background-color: #3a98ff;
+    border: none;
+    color:white;
+    font-family: roboto;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+.container button:hover {
+    background-color: #348ae5;
+}
+
+.container button:active {
+    box-shadow: 0px 0px 5px 1px rgba(25, 27, 165, 0.427);
+} 
